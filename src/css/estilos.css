@@ -5,9 +5,35 @@ body{
     background-color: #5e5b5bad;
     color: #333333;
 }
-
 body.modo-escuro{
     background-color: #212121;
     color: #f5f5f5;
-
 }
+header{
+  background-color: rgb(46, 94, 46);
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  
+}
+header .logo,
+header .imagem-botao{
+    width: 30px;
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+header .logo:hover,
+header .imagem-botao:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+main{ 
+    background-color: antiquewhite;
+    padding: 25px;
+}
+.listagem-pokemon{
+    display: flex;
+}
+
