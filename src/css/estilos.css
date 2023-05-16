@@ -26,11 +26,10 @@ header #botao-alterar-tema{
 }
 header .logo:hover,
 header .imagem-botao:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
     cursor: pointer;
 }
-main{ 
-    background-color: antiquewhite;
+main { 
     padding: 25px;
 }
 main .listagem-pokemon {
@@ -40,7 +39,7 @@ gap: 30px;
 justify-content: center;
 }
 
- .cartao-pokemon {
+ main .cartao-pokemon {
     background-color: #d8e3ec;
     width: 200px;
 }
