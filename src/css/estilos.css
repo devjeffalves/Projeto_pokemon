@@ -10,7 +10,6 @@ body.modo-escuro{
     color: #f5f5f5;
 }
 header{
-  background-color: rgb(46, 94, 46);
   display: flex;
   justify-content: space-between;
   padding: 25px;
@@ -19,27 +18,29 @@ header{
 header .logo,
 header .imagem-botao{
     width: 30px;
+    transition: 0,2s ease-in-out;
 }
 header #botao-alterar-tema{
     background: none;
     border: none;
 }
 header .logo:hover,
-header .imagem-botao:hover{
+header .imagem-botao:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
 main{ 
     background-color: antiquewhite;
-    padding: 15px;
+    padding: 25px;
 }
-main .listagem-pokemon{
+main .listagem-pokemon {
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
+justify-content: center;
 }
 
- .cartao-pokemon{
+ .cartao-pokemon {
     background-color: #d8e3ec;
     width: 200px;
 }
